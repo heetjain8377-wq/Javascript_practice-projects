@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#153677, #150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.options{
+    flex-direction: row;
+    display: flex;
+}
+
+.options button{
+    outline: none;
+    border: none;
+    padding: 1rem;
+    margin: 5rem 2rem 5rem 2rem;
+    background: linear-gradient(red , yellow);
+    border-radius: 50%;
+}
+
+.score{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#yourscore{
+    flex-direction: column;
+    display: flex;
+    font-size: 2rem;
+    margin-top: 1rem;
+    align-self: center;
+    margin-bottom: 3rem;
+}
+
+#compscore{
+    flex-direction: column;
+    display: flex;
+    font-size: 2rem;
+    margin-top: 1rem;
+    align-self: center;
+    margin-bottom: 3rem;
+}
+
+#msg{
+    font-size: 2.5rem;
+    align-self: center;
+    margin-bottom: 2rem;
+}
+
+
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
