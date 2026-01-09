@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.counter{
+    max-height: 100vh;
+    max-width: 100vh;
+    background-color: lightseagreen;
+    color: black;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 50vh 50vh 50vh 50vh;
+}
+
+#input{
+    height: 3rem;
+    font-size: 1rem;
+    max-width: fit-content;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: lightgray;
+    color: black;
+    padding: 0 0 0 1rem;
+    cursor: pointer;
+}
+
+#wordcount{
+    height: 2rem;
+    font-size: 1rem;
+    padding-top: 1rem;
+    max-width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    margin-top: 1.5rem;
+}
