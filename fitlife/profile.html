@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitlife Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Create your profile</h2>
+
+        <label>Full Name</label>
+        <input type="text" id="Name">
+
+        <label>Age</label>
+        <input type="number" id="age">
+
+        <label>Gender</label>
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">female</option>
+        </select>
+
+        <label>height(cm)</label>
+        <input type="number" id="height">
+
+        <label>Weight(kg)</label>
+        <input type="number" id="weight">
+
+        <label >Activity Label</label>
+        <select id="activity">
+            <option value="sedentary">Sedentary</option>
+            <option value="light">Light</option>
+            <option value="moderate">Moderate</option>
+            <option value="heavy">Heavy</option>
+        </select>
+
+        <label>Your Goal</label>
+        <select id="goal">
+            <option value="lose">Lose Weight</option>
+            <option value="maintain">Maintain</option>
+            <option value="gain">gain</option>
+        </select>
+
+        <button id="savebtn">Save & continue</button>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>
