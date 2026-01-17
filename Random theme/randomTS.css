@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.white{
+    background-color: white;
+    color: black;
+}
+
+.blue{
+    background-color: blue;
+    color: white;
+}
+
+.green{
+    background-color: green;
+    color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+    color: blue;
+}
+
+.pink{
+    background-color: pink;
+    color: black;
+}
+
+.violet{
+    background-color: violet;
+    color: black;
+}
+
+.aquamarine{
+    background-color: aquamarine;
+    color: black;
+}
+
+button{
+    background-color: aquamarine;
+    color: black;
+    font-size: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 20px;
+    align-self: center;
+    margin-right: 1rem;
+}
+
+p{
+    font-size: 2rem;
+    align-self: center;
+}

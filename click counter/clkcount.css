@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    font-size: 2rem;
+    background-color: aqua;
+    color: black;
+    align-self: center;
+    border-radius: 50px;
+    padding: 2rem 2rem 2rem 2rem;
+    margin-bottom: 4rem;
+}
+
+#count{
+    align-self: center;
+    background-color: white;
+    color: black;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}

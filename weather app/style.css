@@ -14,7 +14,7 @@
 }
 
 .heading{
-     width: 40%;
+    width: 40%;
     height: 10vh;
     background: rgba(0, 0, 0, 0.05);
     border-radius: 20px;
@@ -84,4 +84,64 @@ button:hover{
     font-size: 1.5rem;
     position: absolute;
     bottom: 20%;
+}
+
+@media(max-width:600px){
+
+    .box{
+        width: 70%;
+    }
+
+    button{
+        position: absolute;
+        bottom: 10px;
+        top: auto;
+        right: 30%;
+        font-size: 14px;
+    }
+
+    #result{
+        font-size: 14px;
+        text-shadow: 1px 1px 2px white;
+    }
+
+    .heading{
+        word-spacing: 0;
+        letter-spacing: 0;
+        font-size: 1rem;
+        padding: 0 1rem 0 1rem;
+        width: fit-content;
+    }
+
+    input{
+        padding: 0 0 0 1rem;
+        width: 80%;
+        font-size: 14px;
+    }
+}
+
+@media(min-width:601px) and (max-width:1024px){
+    button{
+        position: absolute;
+        bottom: 20px;
+        top: auto;
+        right: 35%;
+        
+    }
+
+    #result{
+        font-size: 20px;
+        text-shadow: 1.5px 1.5px 3px white;
+    }
+
+    .heading{
+        word-spacing: 0;
+        letter-spacing: 0;
+        font-size: 1rem;
+    }
+
+    input{
+        padding: 0 0 0 1rem;
+        width: 90%;
+    }
 }
