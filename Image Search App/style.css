@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(135deg,#232526,#414345);
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    width: 95%;
+    height: 10vh;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px black;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+input{
+    width: 40%;
+    height: 3rem;
+    font-size: 1.5rem;
+    padding: 0 0 0 2rem;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    position: absolute;
+    left: 15%;
+    transition: 0.5s;
+    box-shadow: 3px 3px 3px black;
+}
+
+input:hover{
+    box-shadow: 6px 6px 6px black;
+}
+
+button{
+    width: 10%;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px black;
+    transition: 0.5s;
+}
+
+button:hover{
+    scale: 1.02;
+    box-shadow: 5px 5px 5px black;
+}
+
+#search{
+    position: absolute;
+    right: 30%;
+}
+
+#clear{
+    position: absolute;
+    right: 15%;
+}
+
+.container{
+    background: rgba(255, 255, 255, 0.2);
+    width: 95%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px black;
+    position: absolute;
+    top: 14vh;
+}
+
+#resultbox{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    box-shadow: 4px 4px 4px black;
+    margin-top: 20px;
+}
+
+@media(max-width :775px){
+    button{
+        font-size: 16px;
+    }
+
+    input{
+        font-size: 16px;
+        position: absolute;
+        left: 10%;
+    }
+}
+
+@media(min-width : 500px ) and (max-width : 880px){
+    button{
+        font-size: 18px;
+        width: fit-content;
+        padding: 0 0.4rem 0 0.4rem;
+    }
+
+    #search{
+        position: absolute;
+        right: 20%;
+    }
+
+    input{
+        width: 50%;
+        font: 16px;
+        position: absolute;
+        left: 10%;
+        padding: 0 0 0 20px;
+    }
+
+    img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media(max-width:400px){
+    button{
+        font-size: 14px;
+        width: fit-content;
+        padding: 0 0.2rem 0 0.2rem;
+    }
+
+    #search{
+        position: absolute;
+        right: 15%;
+    }
+
+    input{
+        width: 50%;
+        font-size: 14px;
+        position: absolute;
+        left: 5%;
+        padding: 0 0 0 10px;
+    }
+
+    img{
+        width: 250px;
+        height: 250px;
+    }
+}
