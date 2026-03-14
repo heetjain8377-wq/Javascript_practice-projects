@@ -10,7 +10,7 @@ const Order = require("./models/order");
 
 const app = express();
 
-mongoose.connect("mongodb://atlas-sql-69b446804a19d00d51519329-acfsme.a.query.mongodb.net/sample_mflix?ssl=true&authSource=admin")
+mongoose.connect(process.env.MONGO_URL)
 .then(() => console.log("MongoDB Connected"))
 .catch(err => console.log(err));
 
