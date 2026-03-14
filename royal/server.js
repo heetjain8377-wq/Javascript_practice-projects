@@ -17,7 +17,7 @@ mongoose.connect(process.env.MONGO_URL)
 // Middlewares
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(__dirname));
 
 // Multer setup for file uploads
 const storage = multer.diskStorage({
@@ -103,7 +103,7 @@ app.post("/login", async (req, res) => {
 
 // Serve frontend files
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "index.html"));
+  res.sendFile(__dirname+"index.html");
 });
 
 // Start server
